@@ -1,0 +1,14 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'weather-icons/css/weather-icons.min.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500i,600,700i&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #eaf4fa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
