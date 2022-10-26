@@ -38,7 +38,7 @@ class App extends React.Component {
   };
   render() {
     return (
-      <div className="App container">
+      <div className="App container pt-5">
         <Header
           country={this.state.country}
           selectCountry={this.selectCountry}
@@ -53,7 +53,7 @@ class App extends React.Component {
             {this.state.todayWeather.forecast?.length > 0 &&
               this.state.todayWeather.forecast.map(
                 (data: any, index: number) => (
-                  <div className="col-md-3 w-100 forecast-item" key={index}>
+                  <div className="col-md-3 forecast-item" key={index}>
                     <Forecast
                       weatherIconCode={data.weather?.icon}
                       tempCelcius={data.temp}
